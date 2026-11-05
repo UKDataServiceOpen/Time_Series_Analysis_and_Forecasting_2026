@@ -28,7 +28,7 @@ Users should feel free to peruse the materials here as well as watch the recordi
 ## 📊 Data Sources
 
 1. **Crime Data (Detroit, 2015–2020)**
-   Ashby, M. P. J. (2019). Studying Crime and Place with the Crime Open Database. *Research Data Journal for the Humanities and Social Sciences, 4*(1), 65–80. https://doi.org/10.1163/24523666-00401007. Data retrieved [date] from https://osf.io/zyaqn/
+   Ashby, M. P. J. (2019). Studying Crime and Place with the Crime Open Database. *Research Data Journal for the Humanities and Social Sciences, 4*(1), 65–80. https://doi.org/10.1163/24523666-00401007. Data retrieved [2015-2026] from https://osf.io/zyaqn/
 
 2. **Age of Death of Kings of England**
    Hyndman, R., & Yang, Y. (2018). *tsdl: Time Series Data Library* (v0.1.0). https://pkg.yangzhuoranyang.com/tsdl/. Data retrieved [date] from https://robjhyndman.com/tsdldata/misc/kings.dat. Source listed in the data file: McNeill, *Interactive Data Analysis*.
@@ -41,7 +41,7 @@ Users should feel free to peruse the materials here as well as watch the recordi
 
 ## Data Sources & Licensing
 
-This workshop uses police-recorded crime data from the Crime Open Database (CODE), accessed through the `crimedata` R package, alongside three teaching datasets. The licensing terms differ by dataset, so check each source before reusing the data.
+This workshop uses police-recorded crime data from the Crime Open Database (CODE), accessed through the `crimedata` R package, alongside three teaching datasets. No data files are stored in this repository; the code downloads or loads them when it runs. Licensing terms differ by dataset, so check each source before reusing the data.
 
 ---
 
@@ -49,17 +49,17 @@ This workshop uses police-recorded crime data from the Crime Open Database (CODE
 
 **Source:** Crime Open Database — [osf.io/zyaqn](https://osf.io/zyaqn/)
 **Accessed with:** `crimedata::get_crime_data(cities = "Detroit", years = 2015:2020, type = "core")`
-**Licence:** Free to use with acknowledgement of the source; see the [CODE project page](https://osf.io/zyaqn/)
+**Licence:** Free to use with acknowledgement of the source.
 
 ### 2. Kings and 3. Births
 
 **Source:** Time Series Data Library — [robjhyndman.com/TSDL](https://robjhyndman.com/TSDL/)
-**Licence:** [confirm before publishing]
+**Licence:** 
 
 ### 4. nottem
 
 **Source:** R `datasets` package, included with R
-**Licence:** [confirm before publishing]
+**Licence:** 
 
 ---
 
