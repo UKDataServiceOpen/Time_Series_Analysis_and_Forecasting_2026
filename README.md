@@ -6,19 +6,19 @@ This repo contains the material from the 2026 UKDS workshop named 'An Introducti
 
 ## Interactive Coding Materials
 
-You have **two options** to run the workshop:  
+You have **three options** to run the workshop:  
 
-1️⃣ **Run Locally in RStudio**: Download the files and run them on your computer.  
-2️⃣ **Run Online in Google Colab**
+1️⃣ **Run Locally in RStudio** 
 
-## Open in R Studio
+Download the files and run them on your computer. Simply follow the instructions in the code_demo.Rmd file. 
 
-Simply follow the instructions in the code_demo.Rmd file. 
-
-### 📌 Open in Google Colab  
+2️⃣ **Run Online in Google Colab** 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/UKDataServiceOpen/Time_Series_Analysis_and_Forecasting_2026/blob/main/code_demo.ipynb)
 
+3️⃣ **Open in Posit Cloud**
+
+[![Open in Posit Cloud](https://img.shields.io/badge/Open%20in-Posit%20Cloud-blue?logo=rstudio)](https://posit.cloud/content/13306443)
 
 
 ## Further Material
