@@ -1,0 +1,20 @@
+channels:
+  - conda-forge
+dependencies:
+  - r-base=4.5.2
+  - r-dplyr
+  - r-readr
+  - r-tibble
+  - r-janitor
+  - r-fable
+  - r-tsibble
+  - r-ttr
+  - r-lubridate
+  - r-tseries
+  - r-ggfortify
+  - r-ggplot2
+  - r-forecast
+  - r-crimedata
+  - r-zoo
+  - r-xtable
+  - r-xts
